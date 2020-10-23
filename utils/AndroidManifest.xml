@@ -10,8 +10,20 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".RackContents"
+            android:label="Rack Contents"></activity>
+        <activity
+            android:name=".scanrack"
+            android:label="Scan Rack" />
+        <activity
+            android:name=".loginpage"
+            android:label="Login"/>
+        <activity
+            android:name=".Search"
+            android:label="Search" />
+        <activity
             android:name=".Submission"
-            android:label="Submit"></activity>
+            android:label="Submit" />
         <activity
             android:name=".ObjectData"
             android:label="Object Data">
@@ -23,7 +35,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label="Object Scan"></activity>
+            android:label="Object Scan" />
     </application>
 
 </manifest>
